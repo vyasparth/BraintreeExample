@@ -40,8 +40,8 @@ module.exports.routes = {
   'GET /get_all_plans' : 'CustomerTokenController.getAllPlans',
   'POST /make_payment' : 'CustomerTokenController.makePayment',
   'POST /subscribe_plan' : 'CustomerTokenController.subscribePlan',
-  'GET /customer_details/:customerId' : 'CustomerTokenController.findCostumer'
-
+  'GET /customer_details/:customerId' : 'CustomerTokenController.findCostumer',
+  'GET /getPaymentMethodNonce' : 'CustomerTokenController.getPaymentMethodNonce'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

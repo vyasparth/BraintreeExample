@@ -110,7 +110,11 @@ module.exports = {
 					if(err) res.send(err);
 					else res.send(result);
 			});
-		}
+		},
+		// transactionHistory : function(req, res) {
+
+			
+		// }
 
 };
 
